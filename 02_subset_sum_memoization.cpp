@@ -16,7 +16,9 @@ bool subsetCheck(vector<vector<int>>&memo,int *arr,int sum,int ind)
 
     //Not taking the element 
     bool not_take= subsetCheck(memo,arr,sum,ind-1);
+    
     bool take = 0;
+
     //Taking the element
     if(arr[ind]<=sum)
         take = subsetCheck(memo,arr,sum-arr[ind],ind-1);
