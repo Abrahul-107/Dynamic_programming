@@ -27,6 +27,15 @@ bool isSubsetPossible(int *arr, int n, int sum) {
                 tab[i][j] = tab[i-1][j]; // Else leave it as before
         }
     }
+    //for better understanding 
+    // for (int i=1;i<=n;i++)
+    // {
+    //     for(int j=1;j<=sum;j++)
+    //     {
+    //         cout<<tab[i][j]<<" ";
+    //     }
+    //     cout<<endl;
+    // }
 
     return tab[n][sum]; // Return the optimized answer
 }
