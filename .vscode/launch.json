@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/rahul/OneDrive/Desktop/DP/Dynamic_programming",
-      "program": "c:/Users/rahul/OneDrive/Desktop/DP/Dynamic_programming/build/Debug/outDebug",
+      "cwd": "c:/Users/rahul/OneDrive/Desktop/DP/Dynamic_programming/Dp_problems_Misc",
+      "program": "c:/Users/rahul/OneDrive/Desktop/DP/Dynamic_programming/Dp_problems_Misc/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
